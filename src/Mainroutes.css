@@ -1,0 +1,10 @@
+*{
+  margin: 0 auto;
+}
+.loginbck{
+  background: url(../assets/image/Loginbck.jpg) no-repeat center center / cover;
+
+}
+.j{
+  height: 100vh;
+}
