@@ -17,7 +17,7 @@ function Loginform() {
             </div>
             <div className=" text-left "> 
             {/* d-flex flex-row-reverse bd-highlight */}
-              <div className="p-2 bd-highlight text-right "><a href="#"> forget Password?</a></div>
+             <a href="#"> forget Password?</a>
             </div>
             <div className="text-center mb-3 ">
                 <a type="submit" className="center login-btn">Login</a>
