@@ -1,13 +1,9 @@
-*{
-    margin: 0 auto;
-  }
-  .container{
-    width:1320px ;
-  }
-  .fl-btn li{
+
+  .footer-btn li{
       list-style: none;
-      padding-bottom: 30px;
-  }
-  .fl-btn li a{ 
-      color: aliceblue;
+    }
+    .footer-btn a{ 
+        color: aliceblue;
+        text-align: center;
+        text-decoration: none;
   }
