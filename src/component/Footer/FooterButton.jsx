@@ -1,12 +1,11 @@
-import '../header/Loginform'
+
 function FooterButton() {
     return (
-      <div>
-          <div className="d-flex FooterButtom">
-            <ul>
-              <div><li><a href="#">About Us</a></li></div>
-              <div><li><a href="#">About Us</a></li></div>
-              
+      <div className="container" >
+          <div >
+            <ul className="d-flex fl-btn ">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">About Us</a></li>
               <li><a href="#">Terms and Conditions</a></li>
               <li><a href="#">Privacy policy</a></li>
               <li><a href="#">Help</a></li>
