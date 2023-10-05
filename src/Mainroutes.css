@@ -6,14 +6,24 @@
 .container{
   /* border: 1px solid slateblue;  */
 }
-.loginbck{
+ /* .loginbck{ */
+  /* background: url(../src/component/assets/image/Loginbck.jpg) no-repeat center center / cover ; */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* object-fit:fill ; */
+ 
+.Background{
   background: url(../src/component/assets/image/Loginbck.jpg) /*no-repeat center center / cover */ ;
-  background-position: center;
+  /* background-position: center; */
   background-repeat: no-repeat;
-  object-fit:fill ;
+  background-size: cover;
 }
-.navbar-bg{
-  background: linear-gradient(#6291ad, #879eab);
+/* .navbar-bg{ */
+  /* background: linear-gradient(#6291ad, #879eab); */
+/* } */
+.navbar-bg {
+  background: linear-gradient(#ffffff1f, #ffffff0a);
+  box-shadow: 0px 12px 44px 0 #00000040;
 }
 .logo img{
  width: 21%;
@@ -22,9 +32,10 @@
 }
 .drop h5{
   color: #ffffff;
+  text-align: right; 
 }
 .blur{
-  backdrop-filter: blur(80px);
+  backdrop-filter: blur(10  0px);
 }
 .col-md-5{
   padding: 8px !important ;

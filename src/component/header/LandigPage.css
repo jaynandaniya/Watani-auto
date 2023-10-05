@@ -1,0 +1,9 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.landingpage-bg{
+    background: url(../assets/image/LandingPageBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
