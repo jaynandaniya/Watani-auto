@@ -5,7 +5,7 @@ function Navbar() {
        <div className="row py-3  align-items-center ">
         <div className="col-md-11">
           <div className="logo">
-          <img src={require('../assets/logo/Logo.png')} alt="logo" className="brand_logo" />
+          {/* <img src={require('../assets/logo/Logo.png')} alt="logo" className="brand_logo" /> */}
           </div>
         </div>
         <div className="col-md-1">
