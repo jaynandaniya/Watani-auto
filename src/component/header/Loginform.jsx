@@ -4,11 +4,11 @@ function Loginform() {
     return (
         <div >
            <div className="container">
-             <div className="row  py-5">
-              <div className="col-md-7">
+             <div className="row  py-5 ">
+              <div className="col-md-7 my-5">
                 <span></span>
               </div>
-              <div className="col-md-5 blur">
+              <div className="col-md-5 my-5  blur">
                     <div class=" login-container ">
                         <h2 class="text-left mb-4 pt-3 px-5">Welcome !</h2>
                         <div className="p-4">
@@ -19,8 +19,10 @@ function Loginform() {
                             <div class="mb-3 form-input">
                                 <input type="password"  id="password" placeholder="Password*" />
                             </div >
-                            <div className="forgett-psw "><a href=""> Forget Password?</a></div>
-                            <div className="login-btn my-4"> <a href="#">Login</a></div>
+                            <div className="forgett-psw mb-5"><a href=""> Forget Password?</a></div>
+                            <div className="py-3 my-3"><span></span></div>
+                            <div className="login-btn my-5 "> <a href="#">Login</a></div>
+                            <div className="py-3 my-4"><span></span></div>
                             <div className="register py-3">
                             <a href="#">New user?</a>
                             <a href="#">Register Now</a>

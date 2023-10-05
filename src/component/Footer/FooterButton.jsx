@@ -2,9 +2,9 @@
 function FooterButton() {
     return (
       <div className="container" >  
-        <div className="row ">
-          <div className="col-md-12 align-items-center ">
-              <ul  className="d-flex footer-btn ">
+        <div className="row my-4   ">
+          <div className="col-md-12 mt-5 pb-3  pt-5 ">
+              <ul  className="d-flex align-items-center footer-btn ">
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Terms and Conditions</a></li>
