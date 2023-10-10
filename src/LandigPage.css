@@ -6,4 +6,5 @@
     background: url(../assets/image/LandingPageBg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: #000000;
 }

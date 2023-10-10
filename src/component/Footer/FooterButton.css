@@ -1,3 +1,27 @@
+<<<<<<< HEAD
+=======
+  .citem{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    /* justify-content: space-between; */
+  }
+
+ .item{
+   flex-grow: 1;
+   flex-shrink: 0;
+   justify-content: space-between;
+ }
+ .item a{ 
+  color: aliceblue;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+>>>>>>> fb1765223df1f391d28c60dcd9dba90dcd4bf9c6
 
   .footer-btn li{
       list-style: none;
