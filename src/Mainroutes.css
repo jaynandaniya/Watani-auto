@@ -35,7 +35,7 @@
   text-align: right; 
 }
 .blur{
-  backdrop-filter: blur(10  0px);
+  backdrop-filter: blur(80px);
 }
 .col-md-5{
   padding: 8px !important ;

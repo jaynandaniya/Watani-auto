@@ -1,5 +1,5 @@
 import './Mainroutes.css';
-import './FooterButton.css'
+import './component/Footer/FooterButton.css'
 import Loginbck from './component/header/Loginbck';
 function Mainroutes() {
     return (
