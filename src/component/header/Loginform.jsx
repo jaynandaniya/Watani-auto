@@ -1,5 +1,6 @@
 import FooterButton from '../Footer/FooterButton'
 // import LandingPage from '../carlist/LandingPage'
+import { Outlet, Link } from "react-router-dom";
 
 function Loginform() {
   return (
@@ -22,7 +23,11 @@ function Loginform() {
                   </div >
                   <div className="forgett-psw mb-3"><a href=""> Forget Password?</a></div>
                   {/* <div className="py-2 my-2"><span></span></div> */}
-                  <div className="login-btn my-5 "> <a href="#">Login</a></div>
+                  <Link to="/Landingpage/2">
+
+                    <div className="login-btn my-5 "> <a href="#">Login</a></div>
+                  </Link>
+
                   {/* <div className="py-2 my-2"><span></span></div> */}
                   <div className="register py-2">
                     <a href="#">New user?</a>

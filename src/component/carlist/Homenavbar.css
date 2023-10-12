@@ -1,0 +1,20 @@
+
+.landingpage-bg{
+    /* background-color: rgb(59, 90, 114); */
+    /* ba-shadow: 0px 12px 44px  #00000040; */
+}
+.hlogo img{
+    width: 30%;
+    display: inline-block;
+}
+.hmenu{
+    display: flex;
+}
+.hmenu li{
+    list-style: none;
+}
+.hmenu li a{
+    text-decoration: none;
+    color: rgb(234, 228, 228);
+}
+

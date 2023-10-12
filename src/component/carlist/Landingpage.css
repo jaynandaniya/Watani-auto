@@ -1,10 +1,9 @@
 *{
-    margin: 0 auto;
-    padding: 0 auto;
+    box-sizing: border-box;
 }
-.landingpage-bg{
+.landigepageBG{
     background: url(../assets/image/LandingPageBg.png);
     background-repeat: no-repeat;
+    background-position:center;
     background-size: cover;
-    box-shadow: #000000;
 }

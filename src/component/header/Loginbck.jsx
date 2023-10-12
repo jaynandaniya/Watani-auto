@@ -1,15 +1,16 @@
 import Navbar from './Navbar'
 import Loginform from './Loginform'
+// import Loginform from './Loginform'
 
 function Loginbck() {
-    return (
+  return (
 
-      <div className="Background ">
-          <Navbar />
-               <Loginform />
-             
-      </div>
-    );
-  }
-  
-  export default Loginbck;
+    <div className="Background ">
+      <Navbar />
+      <Loginform />
+
+    </div>
+  );
+}
+
+export default Loginbck;
