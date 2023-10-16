@@ -5,5 +5,17 @@
     background: url(../assets/image/LandingPageBg.png);
     background-repeat: no-repeat;
     background-position:center;
+    /* background-position:bottom; */
     background-size: cover;
+    height: 550px;
+}
+.vr-btn{
+    gap:10px;
+}
+.vr-btn a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    padding: 5px 10px;
+    background: transparent;
 }

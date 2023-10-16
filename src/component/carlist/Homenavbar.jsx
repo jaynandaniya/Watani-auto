@@ -14,12 +14,14 @@ function Homenavbar() {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
-        <div className="navbar-nav   ">
-          <a className="nav-link " aria-current="page" href="#">Home</a>
-          <a className="nav-link" href="#">Features</a>
-          <a className="nav-link" href="#">Pricing</a>
-          <a className="nav-link" href="#">Disabled</a>
-           <a className="nav-link "><i className="fa fa-user" aria-hidden="true"></i></a>
+        <div className="navbar-nav gap-3 txt-white ">
+          <a className="nav-link " aria-current="page" href="#">All</a>
+          <a className="nav-link" href="#">Hatchback</a>
+          <a className="nav-link" href="#">Seden</a>
+          <a className="nav-link" href="#">SUV</a>
+          <a className="nav-link" href="#">Pick Ups</a>
+          <a className="nav-link" href="#">EN <i className="fa fa-angle-down " aria-hidden="true"></i></a>
+          <a className="nav-link" ><i className="fa fa-user" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>
@@ -27,4 +29,4 @@ function Homenavbar() {
   );
 }
 
-export default Homenavbar;
+export default Homenavbar;  
